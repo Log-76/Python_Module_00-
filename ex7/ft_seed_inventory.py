@@ -8,3 +8,4 @@ def ft_seed_inventory(str, num, type):
     if type == "area":
         print(str.capitalize() + ' seeds:', num, "square meters")
         return
+    print("Unknown unit type")
